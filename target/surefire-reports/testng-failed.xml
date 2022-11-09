@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.salesforce.automation.scripts.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.automation.scripts.TestScripts">
+        <methods>
+          <include name="loginSuccessTC2"/>
+          <include name="emptyPasswordTC1"/>
+          <include name="beforeMethod1"/>
+          <include name="logoutSuccessTC3"/>
+          <include name="afterTest"/>
+          <include name="setupBeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.scripts.TestScripts -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

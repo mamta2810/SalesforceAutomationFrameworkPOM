@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.salesforce.automation.scripts.ListenerClass"/>
+</listeners>
+  <test name="test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.automation.scripts.TestScripts">
+      <methods>
+      <include name="emptyPasswordTC1" />
+      <include name="loginSuccessTC2" />
+      <include name="logoutSuccessTC3" />
+      <include name="forgotPasswordTC4A" />
+      <include name="invalidLoginTC4B" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

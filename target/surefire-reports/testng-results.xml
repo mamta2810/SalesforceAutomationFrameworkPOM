@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T00:13:26 EST" name="Suite" finished-at="2022-11-09T00:14:47 EST" duration-ms="80947">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T00:13:26 EST" name="test" finished-at="2022-11-09T00:14:47 EST" duration-ms="80947">
+      <class name="com.salesforce.automation.scripts.TestScripts">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:13:26 EST" name="setupBeforeTest" finished-at="2022-11-09T00:13:27 EST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="beforeMethod1(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:13:27 EST" name="beforeMethod1" finished-at="2022-11-09T00:13:44 EST" duration-ms="17003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method signature="emptyPasswordTC1()[pri:1, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:13:44 EST" name="emptyPasswordTC1" finished-at="2022-11-09T00:13:51 EST" duration-ms="6645" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter your] but found [Please enter your password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter your] but found [Please enter your password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1(TestScripts.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTC1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:13:51 EST" name="afterMethod" finished-at="2022-11-09T00:13:55 EST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod1(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:13:55 EST" name="beforeMethod1" finished-at="2022-11-09T00:14:00 EST" duration-ms="5659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.scripts.TestScripts.loginSuccessTC2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method signature="loginSuccessTC2()[pri:1, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:00 EST" name="loginSuccessTC2" finished-at="2022-11-09T00:14:16 EST" duration-ms="15263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTC2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:16 EST" name="afterMethod" finished-at="2022-11-09T00:14:19 EST" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="logoutSuccessTC3()[pri:3, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:19 EST" name="logoutSuccessTC3" finished-at="2022-11-09T00:14:19 EST" depends-on-methods="com.salesforce.automation.scripts.TestScripts.loginSuccessTC2, com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.salesforce.automation.scripts.TestScripts.logoutSuccessTC3() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3 depends on not successfully finished methods 
+[com.salesforce.automation.scripts.TestScripts.loginSuccessTC2() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3
+com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.salesforce.automation.scripts.TestScripts.logoutSuccessTC3() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3 depends on not successfully finished methods 
+[com.salesforce.automation.scripts.TestScripts.loginSuccessTC2() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3
+com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1() on instance com.salesforce.automation.scripts.TestScripts@48aaecc3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSuccessTC3 -->
+        <test-method is-config="true" signature="beforeMethod1(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:19 EST" name="beforeMethod1" finished-at="2022-11-09T00:14:23 EST" duration-ms="4188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.scripts.TestScripts.forgotPasswordTC4A() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method signature="forgotPasswordTC4A()[pri:4, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:23 EST" name="forgotPasswordTC4A" finished-at="2022-11-09T00:14:29 EST" duration-ms="5229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTC4A -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:29 EST" name="afterMethod" finished-at="2022-11-09T00:14:32 EST" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod1(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:32 EST" name="beforeMethod1" finished-at="2022-11-09T00:14:36 EST" duration-ms="4571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.scripts.TestScripts.invalidLoginTC4B() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method signature="invalidLoginTC4B()[pri:5, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:36 EST" name="invalidLoginTC4B" finished-at="2022-11-09T00:14:43 EST" duration-ms="6200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTC4B -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:43 EST" name="afterMethod" finished-at="2022-11-09T00:14:46 EST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.salesforce.automation.scripts.TestScripts@48aaecc3]" started-at="2022-11-09T00:14:46 EST" name="afterTest" finished-at="2022-11-09T00:14:47 EST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.salesforce.automation.scripts.TestScripts -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 82.868 sec <<< FAILURE! - in TestSuite
+emptyPasswordTC1(com.salesforce.automation.scripts.TestScripts)  Time elapsed: 6.67 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Please enter your] but found [Please enter your password.]
+	at com.salesforce.automation.scripts.TestScripts.emptyPasswordTC1(TestScripts.java:49)
+
